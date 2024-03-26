@@ -1,0 +1,11 @@
+{
+    "extends": "@kant2002-diia-inhouse/configs/tsconfig",
+    "compilerOptions": {
+        "outDir": "dist",
+        "declarationDir": "dist/types",
+        "baseUrl": ".",
+        "strict": true
+    },
+    "include": ["src/**/*","@kant2002-diia-inhouse/types"],
+    "exclude": ["node_modules", "node_modules/type-fest/ts41/get.d.ts"]
+}

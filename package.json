@@ -1,0 +1,31 @@
+{
+  "name": "@kant2002-diia-inhouse/user-service-client",
+  "version": "1.0.0-121341",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist/ && mkdir dist && npm run genproto && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "genproto": "genproto --outputDir src/generated --generateClient"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "dependencies": {
+    "mongodb": "^6.3.0",
+    "nice-grpc-common": "^2.0.2",
+    "protobufjs": "^7.2.5",
+    "type-fest": "^4.14.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@kant2002-diia-inhouse/configs": "^1.27.1",
+    "@kant2002-diia-inhouse/genproto": "^1.10.0",
+    "@kant2002-diia-inhouse/types": "^5.1.0"
+  }
+}
