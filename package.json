@@ -1,6 +1,6 @@
 {
   "name": "@kant2002-diia-inhouse/user-service-client",
-  "version": "1.0.0-121341",
+  "version": "1.0.0-121342",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/index.d.ts",
   "files": [
     "dist",
     "src"
