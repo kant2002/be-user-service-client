@@ -1,6 +1,6 @@
 {
   "name": "@kant2002-diia-inhouse/user-service-client",
-  "version": "1.0.0-121342",
+  "version": "1.0.0-121343",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
